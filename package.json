@@ -8,6 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
     "date-fns": "^2.11.1",
     "gray-matter": "^4.0.2",
     "next": "^11.0.0",

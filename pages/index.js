@@ -4,6 +4,7 @@ import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
+import PortFolioCard1 from '../components/card/portfolioCard1'
 
 export default function Home({ allPostsData }) {
   return (
@@ -12,24 +13,27 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>[Your Self Introduction]</p>
-        <p>
-          (This is a sample website - you’ll be building a site like this in{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
+        <p>I'm a Software Engineer, currently a student at NTOU</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h2 className={utilStyles.headingLg}>Skill</h2>
+        <p>I'm currently using JavaScript、Emotion、Next.js、React、or Vue to Build a modern interactive website.</p>
+        <p>Also I'm using Django, Express, Spring, or Laravel to build backend servers.</p>
+        <p>I have 3 years of experience developing android app and 1 year of experience developing swiftUI app.</p>
+      </section>
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <h2 className={utilStyles.headingLg}>Portfolio</h2>
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
+          {allPostsData.map(({ id, date, title,img,brief_description }) => (
             <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>
-                <a>{title}</a>
-              </Link>
-              <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
+              <PortFolioCard1
+                img = {img}
+                title={<Link href={`/posts/${id}`}>
+                  <a>{title}</a>
+                </Link>}
+                content={<small className={utilStyles.lightText}>
+                  {brief_description}
+                </small>}></PortFolioCard1>
             </li>
           ))}
         </ul>
