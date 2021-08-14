@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
 const name = 'Flexolk'
-export const siteTitle = 'Next.js Sample Website'
+export const siteTitle = 'Flexolk'
 
 export default function Layout({ children, home }) {
   return (
@@ -25,33 +25,29 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
+
+      <nav className={styles.nav}>
+        <Link href="https://github.com/SmoothieNoIce"><a><p className={styles.url}>github</p></a></Link>
+        <Link href="https://blog.flexolk.xyz"><a><p className={styles.url}>blog</p></a></Link>
+        <Link href="/"><a><p className={styles.url}>home</p></a></Link>
+
+      </nav>
+
       <header className={styles.header}>
-        {home ? (
-          <>
-            <Image
-              priority
-              src="/images/profile.webp"
-              height={64}
-              width={64}
-              alt={name}
-            />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
-          </>
-        ) : (
-          <>
-            <>
-              <Image
-                priority
-                src="/images/profile.webp"
-                height={64}
-                width={64}
-                alt={name}
-              />
-              <h1 className={utilStyles.heading2Xl}>{name}</h1>
-            </>
-          </>
-        )}
+        <>
+          <Image
+            priority
+            src="/images/profile.webp"
+            height={64}
+            width={64}
+            alt={name}
+          />
+          <Link href="/"><a><h1 className={utilStyles.heading2Xl}>{name}</h1></a></Link>
+        </>
       </header>
+
+
+
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>

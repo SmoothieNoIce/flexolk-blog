@@ -8,28 +8,39 @@ const Card = styled.div(
       display: 'flex',
       width: '100%',
       backgroundColor: "#111111",
-      maxHeight: "170px"
+      [`@media (min-width: 768px)`]: {
+        flexDirection:"row",
+        maxHeight: "170px",
+      },
+      [`@media (max-width: 768px)`]: {
+        flexDirection:"column",
+      }
     }
   ))
 
-const CardContainer = styled.p(
+const CardContainer = styled.div(
   props => (
     {
       backgroundColor: "#111111",
-      padding: "0px 24px 0px 24px",
+      padding: "20px 24px 20px 24px"
     }
   ))
 
 const Img = styled.img(
   props => (
     {
-      maxWidth: "300px",
-      maxHeight: "170px"
+      [`@media (min-width: 768px)`]: {
+        maxWidth: "300px",
+        maxHeight: "170px",
+      },
+      [`@media (max-width: 768px)`]: {
+        maxWidth: "100%",
+      }
     }
   ))
 
-
-const Title = styled.p(
+ 
+const Title = styled.div(
   props => (
     {
       fontWeight: '800',
@@ -40,8 +51,8 @@ const Title = styled.p(
 const Content = styled.p(
   props => (
     {
-      maxHeight: "170px"
-
+      maxHeight: "170px",
+      margin: "0",
     }
   ))
 

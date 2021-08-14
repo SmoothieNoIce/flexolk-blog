@@ -17,7 +17,7 @@ img: "/images/portfolio/discordtw.png"
 * Discord.py
 * Docker-compose
 
-## 解決問題
+## Feature
 
 1. 使用 Discord.py 撰寫機器人並使用 Restful API 定時傳回資訊來更新資訊
 2. 使用 Django Q 對機器人資料更新進行排程

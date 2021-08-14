@@ -4,11 +4,23 @@
   margin: 3rem auto 6rem;
 }
 
+.nav{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.url{
+  margin:0 10px 20px 10px
+}
+
 .header {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
+
+
 
 .backToHome {
   margin: 3rem 0 0;
