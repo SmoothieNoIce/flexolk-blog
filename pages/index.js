@@ -13,11 +13,11 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>I'm a Software Engineer, currently a student at NTOU</p>
+        <p>I'm a Software Engineer, currently a student at NTOU, and a backend developer intern at 25sprout</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Skill</h2>
-        <p>I'm currently using JavaScript、Emotion、Next.js、React、or Vue to Build a modern interactive website.</p>
+        <p>I'm currently using JavaScript、Emotion、Next.js、React、or Vue to build a modern interactive website.</p>
         <p>Also I'm using Django、Express、Spring、or Laravel to build backend servers.</p>
         <p>I have 3 years of experience developing android apps and 1 year of experience developing swiftUI apps.</p>
       </section>
