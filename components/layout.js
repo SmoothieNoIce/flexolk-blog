@@ -35,13 +35,6 @@ export default function Layout({ children, home }) {
 
       <header className={styles.header}>
         <>
-          <Image
-            priority
-            src="/images/profile.webp"
-            height={64}
-            width={64}
-            alt={name}
-          />
           <Link href="/"><a><h1 className={utilStyles.heading2Xl}>{name}</h1></a></Link>
         </>
       </header>
