@@ -36,7 +36,7 @@ export default function Layout({ children, home }) {
       <header className={styles.header}>
         <>
           <Link href="/"><a><h1 className={utilStyles.heading2Xl}>{name}</h1></a></Link>
-        </>
+        </> 
       </header>
 
 
