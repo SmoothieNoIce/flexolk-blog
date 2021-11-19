@@ -18,7 +18,7 @@ export default function Home({ allPostsData }) {
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Skill</h2>
         <p>I'm currently using JavaScript、Emotion、Next.js、React、or Vue to build modern interactive websites, 
-        Also I'm using Django、Express、Spring、or Laravel to build backend servers.</p>
+        also I'm using Django、Express、Spring、or Laravel to build backend servers.</p>
         <p>I have 3 years of experience developing android apps and 1 year of experience developing swiftUI apps.</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
