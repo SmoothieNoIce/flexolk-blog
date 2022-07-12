@@ -13,26 +13,49 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>I'm a software engineer, currently major in Computer Science And Engineering at NTOU</p>
+        <p>During my job experience, I had practical skills with interesting technologies, tasks, people. In the whole role of my engineering practice incude web development and experience on multiple platform software design.</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Skill</h2>
-        <p>I'm currently using JavaScript、Emotion、Next.js、React、or Vue to build modern interactive websites, 
-        also I'm using Go、Express、Spring、or Laravel to build backend servers.</p>
-        <p>I have 3 years of experience developing android apps and 1 year of experience developing swiftUI apps.</p>
+        <ul className={utilStyles.ArticleLi}>
+          <li>PHP, Laravel Framework</li>
+          <li>Python, Django Framework</li>
+          <li>Golang, Gin Framework</li>
+          <li>Java, Spring Framework</li>
+          <li>Node.js, Express Framework</li>
+          <li>React Framework</li>
+          <li>Vue Framework</li>
+          <li>HTML, CSS, Javascript</li>
+          <li>Android (Java, Kotlin)</li>
+          <li>IOS SwiftUI</li>
+          <li>Resolving technical issues</li>
+          <li>Teamwork</li>
+          <li>Communication skills</li>
+        </ul>
+      </section>
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <h2 className={utilStyles.headingLg}>Degree</h2>
+        <p className={utilStyles.ArticleMd}>2018-2022 B.S, Computer Science And Engineering</p>
+        <p className={utilStyles.ArticleMd}>National Taiwan Ocean University</p>
+        <ul className={utilStyles.ArticleLi}>
+          <li>GPA 3.36</li>
+          <li>Followed my passion in software engineering and clound computing classes.</li>
+          <li>Submitted capstone project to College Student Research Creativity Award.</li>
+        </ul>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Certificate</h2>
-        <p>RHCSA 8</p>
-        <p>TOEIC LR 820</p>
+        <p className={utilStyles.ArticleMd}>CPE Professional(4), 2022</p>
+        <p className={utilStyles.ArticleMd}>RHCSA 8, 2020</p>
+        <p className={utilStyles.ArticleMd}>TOEIC LR, 2019</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Portfolio</h2>
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title,img,brief_description }) => (
+          {allPostsData.map(({ id, date, title, img, brief_description }) => (
             <li className={utilStyles.listItem} key={id}>
               <PortFolioCard1
-                img = {img}
+                img={img}
                 title={<Link href={`/posts/${id}`}>
                   <a>{title}</a>
                 </Link>}

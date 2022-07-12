@@ -26,6 +26,23 @@
   line-height: 1.5;
 }
 
+.ArticleMd {
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 0.8;
+}
+
+.Article2Md {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 0.8;
+}
+
+.ArticleLi {
+  font-size: 1rem;
+}
+
 .borderCircle {
   border-radius: 9999px;
 }
