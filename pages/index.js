@@ -24,6 +24,9 @@ export default function Home({ allPostsData }) {
           <li>Golang, Gin Framework</li>
           <li>Java, Spring Framework</li>
           <li>Node.js, Express Framework</li>
+          <li>MySQL</li>
+          <li>MongoDB</li>
+          <li>InfluxDB</li>
           <p className={utilStyles.ArticleMd}>Frontend development</p>
           <li>HTML, CSS, Javascript</li>
           <li>React Framework</li>
@@ -33,6 +36,7 @@ export default function Home({ allPostsData }) {
           <p className={utilStyles.ArticleMd}>Server management</p>
           <li>Linux</li>
           <li>Bash Script</li>
+          <li>Docker</li>
           <p className={utilStyles.ArticleMd}>Other</p>
           <li>Resolving technical issues</li>
           <li>Teamwork</li>
@@ -53,13 +57,13 @@ export default function Home({ allPostsData }) {
         <h2 className={utilStyles.headingLg}>Work Experience</h2>
         <ul>
           <li>
-            <p className={utilStyles.ArticleMd}>Junior Backend Engineer</p>
+            <p className={utilStyles.ArticleMd}>Junior Backend Developer</p>
             <p className={utilStyles.ArticleMd}>25sprout</p>
             <p className={utilStyles.Article2Md}>2022/7 -</p>
             <p className={utilStyles.Article2Md}>Taipei City, Taiwan</p>
           </li>
           <li>
-            <p className={utilStyles.ArticleMd}>Backend Engineer Intern</p>
+            <p className={utilStyles.ArticleMd}>Backend Developer Intern</p>
             <p className={utilStyles.ArticleMd}>25sprout</p>
             <p className={utilStyles.Article2Md}>2021/9 - 2022/6</p>
             <p className={utilStyles.Article2Md}>Taipei City, Taiwan</p>
