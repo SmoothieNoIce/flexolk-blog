@@ -12,6 +12,7 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+      <img className={utilStyles.headingBackground} src="/images/bg.jpg"></img>
       <section className={utilStyles.headingMd}>
         <p>During my job experience, I had practical skills with interesting technologies, tasks, people. In the whole role of my engineering practice incude web development and experience on multiple platform software design.</p>
       </section>

@@ -7,7 +7,7 @@ const Card = styled.div(
     {
       display: 'flex',
       width: '100%',
-      backgroundColor: "#091D33",
+      backgroundColor: "#111111",
       [`@media (min-width: 769px)`]: {
         flexDirection: "row",
         maxHeight: "170px",
@@ -21,7 +21,7 @@ const Card = styled.div(
 const CardContainer = styled.div(
   props => (
     {
-      backgroundColor: "#091D33",
+      backgroundColor: "#111111",
       padding: "20px 24px 20px 24px"
     }
   ))
