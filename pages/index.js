@@ -49,7 +49,7 @@ export default function Home({ allPostsData }) {
         <p className={utilStyles.ArticleMd}>National Taiwan Ocean University</p>
         <ul className={utilStyles.ArticleLi}>
           <li>GPA 3.36</li>
-          <li>Followed my passion in software engineering and clound computing classes.</li>
+          <li>Followed my passion in software engineering and cloud computing classes.</li>
           <li>Submitted capstone project to College Student Research Creativity Award.</li>
         </ul>
       </section>
