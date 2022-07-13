@@ -74,7 +74,7 @@ export default function Home({ allPostsData }) {
         <h2 className={utilStyles.headingLg}>Certificate</h2>
         <p className={utilStyles.ArticleMd}>CPE Professional(4), 2022</p>
         <p className={utilStyles.ArticleMd}>RHCSA 8, 2020</p>
-        <p className={utilStyles.ArticleMd}>TOEIC LR, 2019</p>
+        <p className={utilStyles.ArticleMd}>TOEIC LR 820, 2019</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Portfolio</h2>
