@@ -7,13 +7,13 @@ const Card = styled.div(
     {
       display: 'flex',
       width: '100%',
-      backgroundColor: "#111111",
-      [`@media (min-width: 768px)`]: {
-        flexDirection:"row",
+      backgroundColor: "#091D33",
+      [`@media (min-width: 769px)`]: {
+        flexDirection: "row",
         maxHeight: "170px",
       },
       [`@media (max-width: 768px)`]: {
-        flexDirection:"column",
+        flexDirection: "column",
       }
     }
   ))
@@ -21,7 +21,7 @@ const Card = styled.div(
 const CardContainer = styled.div(
   props => (
     {
-      backgroundColor: "#111111",
+      backgroundColor: "#091D33",
       padding: "20px 24px 20px 24px"
     }
   ))
@@ -29,7 +29,7 @@ const CardContainer = styled.div(
 const Img = styled.img(
   props => (
     {
-      [`@media (min-width: 768px)`]: {
+      [`@media (min-width: 769px)`]: {
         maxWidth: "300px",
         maxHeight: "170px",
       },
@@ -39,7 +39,7 @@ const Img = styled.img(
     }
   ))
 
- 
+
 const Title = styled.div(
   props => (
     {
