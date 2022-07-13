@@ -18,16 +18,22 @@ export default function Home({ allPostsData }) {
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Skill</h2>
         <ul className={utilStyles.ArticleLi}>
+          <p className={utilStyles.ArticleMd}>Backend development</p>
           <li>PHP, Laravel Framework</li>
           <li>Python, Django Framework</li>
           <li>Golang, Gin Framework</li>
           <li>Java, Spring Framework</li>
           <li>Node.js, Express Framework</li>
+          <p className={utilStyles.ArticleMd}>Frontend development</p>
+          <li>HTML, CSS, Javascript</li>
           <li>React Framework</li>
           <li>Vue Framework</li>
-          <li>HTML, CSS, Javascript</li>
           <li>Android (Java, Kotlin)</li>
           <li>IOS SwiftUI</li>
+          <p className={utilStyles.ArticleMd}>Server management</p>
+          <li>Linux</li>
+          <li>Bash Script</li>
+          <p className={utilStyles.ArticleMd}>Other</p>
           <li>Resolving technical issues</li>
           <li>Teamwork</li>
           <li>Communication skills</li>
@@ -41,6 +47,23 @@ export default function Home({ allPostsData }) {
           <li>GPA 3.36</li>
           <li>Followed my passion in software engineering and clound computing classes.</li>
           <li>Submitted capstone project to College Student Research Creativity Award.</li>
+        </ul>
+      </section>
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <h2 className={utilStyles.headingLg}>Work Experience</h2>
+        <ul>
+          <li>
+            <p className={utilStyles.ArticleMd}>Junior Backend Engineer</p>
+            <p className={utilStyles.ArticleMd}>25sprout</p>
+            <p className={utilStyles.Article2Md}>2022/7 -</p>
+            <p className={utilStyles.Article2Md}>Taipei City, Taiwan</p>
+          </li>
+          <li>
+            <p className={utilStyles.ArticleMd}>Backend Engineer Intern</p>
+            <p className={utilStyles.ArticleMd}>25sprout</p>
+            <p className={utilStyles.Article2Md}>2021/9 - 2022/6</p>
+            <p className={utilStyles.Article2Md}>Taipei City, Taiwan</p>
+          </li>
         </ul>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
@@ -67,7 +90,7 @@ export default function Home({ allPostsData }) {
         </ul>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Contact me</h2>
+        <h2 className={utilStyles.headingLg}>Contact Me</h2>
         <p>aci5722@gmail.com</p>
       </section>
     </Layout>

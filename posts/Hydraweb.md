@@ -24,4 +24,3 @@ img: "/images/portfolio/hydraweb.png"
     * Mapbox.gl
     * Nebula.gl
     * Emotion
-    * Emotion
