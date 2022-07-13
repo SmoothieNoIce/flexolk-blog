@@ -18,8 +18,8 @@ export default function Home({ allPostsData }) {
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Skill</h2>
+        <p className={utilStyles.ArticleMd}>Backend development</p>
         <ul className={utilStyles.ArticleLi}>
-          <p className={utilStyles.ArticleMd}>Backend development</p>
           <li>PHP, Laravel Framework</li>
           <li>Python, Django Framework</li>
           <li>Golang, Gin Framework</li>
@@ -28,17 +28,25 @@ export default function Home({ allPostsData }) {
           <li>MySQL</li>
           <li>MongoDB</li>
           <li>InfluxDB</li>
-          <p className={utilStyles.ArticleMd}>Frontend development</p>
+        </ul>
+        <p className={utilStyles.ArticleMd}>Frontend development</p>
+        <ul className={utilStyles.ArticleLi}>
           <li>HTML, CSS, Javascript</li>
           <li>React Framework</li>
+          <li>Next.js Framework</li>
           <li>Vue Framework</li>
           <li>Android (Java, Kotlin)</li>
           <li>IOS SwiftUI</li>
-          <p className={utilStyles.ArticleMd}>Server management</p>
+        </ul>
+        <p className={utilStyles.ArticleMd}>Server management</p>
+        <ul className={utilStyles.ArticleLi}>
           <li>Linux</li>
           <li>Bash Script</li>
           <li>Docker</li>
-          <p className={utilStyles.ArticleMd}>Other</p>
+        </ul>
+        <p className={utilStyles.ArticleMd}>Other</p>
+        <ul className={utilStyles.ArticleLi}>
+          <li>Git</li>
           <li>Resolving technical issues</li>
           <li>Teamwork</li>
           <li>Communication skills</li>
