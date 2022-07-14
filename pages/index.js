@@ -28,6 +28,7 @@ export default function Home({ allPostsData }) {
           <li>MySQL</li>
           <li>MongoDB</li>
           <li>InfluxDB</li>
+          <li>Redis</li>
         </ul>
         <p className={utilStyles.ArticleMd}>Frontend development</p>
         <ul className={utilStyles.ArticleLi}>
