@@ -15,7 +15,7 @@ export default function Home({ allPostsData }) {
       <img className={utilStyles.headingBackground} src="/images/oc.png"></img>
       <section className={utilStyles.headingMd}>
         <p>During my job experience, I had practical skills with interesting technologies, tasks, people. In the whole role of my engineering practice incude web development and experience on multiple platform software design.</p>
-        <p>Currently researching maching learning and reinforcement learning.</p>
+        <p>Currently researching machine learning and reinforcement learning.</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Skill</h2>
