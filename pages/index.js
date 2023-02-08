@@ -12,9 +12,10 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <img className={utilStyles.headingBackground} src="/images/bg.jpg"></img>
+      <img className={utilStyles.headingBackground} src="/images/oc.png"></img>
       <section className={utilStyles.headingMd}>
         <p>During my job experience, I had practical skills with interesting technologies, tasks, people. In the whole role of my engineering practice incude web development and experience on multiple platform software design.</p>
+        <p>Currently researching maching learning and reinforcement learning.</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Skill</h2>
@@ -54,13 +55,20 @@ export default function Home({ allPostsData }) {
         </ul>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Degree</h2>
-        <p className={utilStyles.ArticleMd}>2018-2022 B.S, Computer Science And Engineering</p>
-        <p className={utilStyles.ArticleMd}>National Taiwan Ocean University</p>
+        <h2 className={utilStyles.headingLg}>Education</h2>
         <ul className={utilStyles.ArticleLi}>
-          <li>GPA 3.4</li>
-          <li>Followed my passion in software engineering and cloud computing classes.</li>
-          <li>Submitted capstone project to College Student Research Creativity Award.</li>
+          <li>
+            <h3 className={utilStyles.ArticleMd}>2023- M.S, Computer Science And Engineering</h3>
+            <p className={utilStyles.ArticleMd}>National Yang Ming Chiao Tung University</p>
+          </li>
+          <li>
+            <h3 className={utilStyles.ArticleMd}>2018-2022 B.S, Computer Science And Engineering</h3>
+            <p className={utilStyles.ArticleMd}>National Taiwan Ocean University</p>
+            <ul className={utilStyles.ArticleLi}>
+              <li>Followed my passion in software engineering and cloud computing classes.</li>
+              <li>Submitted capstone project to College Student Research Creativity Award.</li>
+            </ul>
+          </li>
         </ul>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
