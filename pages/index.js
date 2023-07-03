@@ -77,7 +77,7 @@ export default function Home({ allPostsData }) {
           <li>
             <p className={utilStyles.ArticleMd}>Junior Backend Developer</p>
             <p className={utilStyles.ArticleMd}>25sprout</p>
-            <p className={utilStyles.Article2Md}>2022/7 -</p>
+            <p className={utilStyles.Article2Md}>2022/7 - 2023/4</p>
             <p className={utilStyles.Article2Md}>Taipei City, Taiwan</p>
           </li>
           <li>
