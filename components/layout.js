@@ -26,15 +26,15 @@ export default function Layout({ children, home }) {
       </Head>
 
       <nav className={styles.nav}>
-        <Link href="https://github.com/SmoothieNoIce"><a><p className={styles.url}>github</p></a></Link>
-        <Link href="https://medium.com/@flexolk"><a><p className={styles.url}>blog</p></a></Link>
-        <Link href="/"><a><p className={styles.url}>home</p></a></Link>
+        <Link href="https://github.com/SmoothieNoIce"><p className={styles.url}>github</p></Link>
+        <Link href="https://medium.com/@flexolk"><p className={styles.url}>blog</p></Link>
+        <Link href="/"><p className={styles.url}>home</p></Link>
 
       </nav>
 
       <header className={styles.header}>
         <>
-          <Link href="/"><a><h1 className={utilStyles.heading2Xl}>{name}</h1></a></Link>
+          <Link href="/"><h1 className={utilStyles.heading2Xl}>{name}</h1></Link>
         </> 
       </header>
 
@@ -44,7 +44,7 @@ export default function Layout({ children, home }) {
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
-            <a>← Back to home</a>
+            ← Back to home
           </Link>
         </div>
       )}

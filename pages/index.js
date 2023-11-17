@@ -102,7 +102,7 @@ export default function Home({ allPostsData }) {
               <PortFolioCard1
                 img={img}
                 title={<Link href={`/posts/${id}`}>
-                  <a>{title}</a>
+                  {title}
                 </Link>}
                 content={<small className={utilStyles.lightText}>
                   {brief_description}
