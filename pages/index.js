@@ -113,7 +113,7 @@ export default function Home({ allPostsData }) {
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Contact Me</h2>
-        <p>me@flexolk.xyz</p>
+        <p>contact@flexolk.me</p>
       </section>
     </Layout>
   )
