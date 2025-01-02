@@ -143,6 +143,11 @@ export default function Commissions({ allPostsData }) {
                 <img src="/images/commissions/fu_1.jpg" alt="Picture of the author" />
                 <p className={utilStyles.imgText3}>害羞普洱 By <Link href="https://x.com/monufun_f">ふー</Link></p>
 
+                <h2>自己畫的</h2> 
+
+                <img className={utilStyles.commision_img}  src="/images/commissions/flex_1.png" alt="Picture of the author" />
+                <p className={utilStyles.imgText3}>驚訝普洱</p>
+
 
             </section>
         </Layout>
