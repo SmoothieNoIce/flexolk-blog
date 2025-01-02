@@ -13,7 +13,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="Flexolk's personal website"
         />
         <meta
           property="og:image"
@@ -26,6 +26,8 @@ export default function Layout({ children, home }) {
       </Head>
 
       <nav className={styles.nav}>
+        <Link href="/commissions"><p className={styles.url}>commissions</p></Link>
+        <Link href="/info"><p className={styles.url}>info</p></Link>
         <Link href="https://github.com/SmoothieNoIce"><p className={styles.url}>github</p></Link>
         <Link href="https://blog.flexolk.me"><p className={styles.url}>blog</p></Link>
         <Link href="/"><p className={styles.url}>home</p></Link>
