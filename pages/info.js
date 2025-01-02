@@ -33,6 +33,7 @@ export default function Info({ allPostsData }) {
                 <ul>
                     <li><Link href="https://www.facebook.com/flexolk.fn">Facebook(毛毛居多)</Link></li>
                     <li><Link href="https://x.com/SmoothieNoIce">X/Twitter(毛毛居多)</Link></li>
+                    <li><Link href="https://www.plurk.com/flexolk">Plurk</Link></li>
                     <li><Link href="https://github.com/SmoothieNoIce">Github(程式)</Link></li>
                 </ul>
 
