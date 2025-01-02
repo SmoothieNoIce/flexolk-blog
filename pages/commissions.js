@@ -46,7 +46,7 @@ export default function Commissions({ allPostsData }) {
                 <p className={utilStyles.imgText3}>笨笨 By <Link href="https://www.facebook.com/profile.php?id=100004859077724">阿諾</Link></p>
 
                 <img className={utilStyles.commision_img} src="/images/commissions/rappy_5.jpg" alt="Picture of the author" />
-                <p className={utilStyles.imgText3}>打打 By <Link href="https://x.com/rappy325">Rappy</Link></p>
+                <p className={utilStyles.imgText3}>Hi By <Link href="https://x.com/rappy325">Rappy</Link></p>
 
                 <img className={utilStyles.commision_img} src="/images/commissions/rappy_4.png" alt="Picture of the author" />
                 <p className={utilStyles.imgText3}>打打 By <Link href="https://x.com/rappy325">Rappy</Link></p>
