@@ -45,6 +45,8 @@ export default function Commissions({ allPostsData }) {
                 <img className={utilStyles.commision_img} src="/images/commissions/ysu_1.jpg" alt="Picture of the author" />
                 <p className={utilStyles.imgText3}>笨笨 By <Link href="https://www.facebook.com/profile.php?id=100004859077724">阿諾</Link></p>
 
+                <img className={utilStyles.commision_img} src="/images/commissions/rappy_5.jpg" alt="Picture of the author" />
+                <p className={utilStyles.imgText3}>打打 By <Link href="https://x.com/rappy325">Rappy</Link></p>
 
                 <img className={utilStyles.commision_img} src="/images/commissions/rappy_4.png" alt="Picture of the author" />
                 <p className={utilStyles.imgText3}>打打 By <Link href="https://x.com/rappy325">Rappy</Link></p>
@@ -60,6 +62,10 @@ export default function Commissions({ allPostsData }) {
 
                 <img className={utilStyles.commision_img} src="/images/commissions/fg_tail_1.PNG" alt="Picture of the author" />
                 <p className={utilStyles.imgText3}>網路拓樸 By <Link href="https://x.com/FGTail075">鬆尾</Link></p>
+
+                <img className={utilStyles.commision_img} src="/images/commissions/woofwolf.png" alt="Picture of the author" />
+                <p className={utilStyles.imgText3}>兄弟 By <Link href="https://www.facebook.com/profile.php?id=100080198721688">愛貓</Link></p>
+
 
                 <h2>委託</h2> 
 
@@ -83,6 +89,9 @@ export default function Commissions({ allPostsData }) {
 
                 <img src="/images/commissions/idk_1.jpg" alt="Picture of the author" />
                 <p className={utilStyles.imgText3}>圍巾藏了東西 By 大陸繪師</p>
+
+                <img src="/images/commissions/yuxiao.png" alt="Picture of the author" />
+                <p className={utilStyles.imgText3}>愛貓 普洱 By <Link href="https://www.facebook.com/yuxiao8787">郁咲</Link></p>
 
                 <h2>Skeb</h2>
 
