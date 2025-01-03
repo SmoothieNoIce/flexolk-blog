@@ -46,6 +46,7 @@ export default function Info({ allPostsData }) {
                     <li><Link href="https://x.com/loynuwu">Loyn</Link></li>
                     <li><Link href="https://x.com/wade990047">龍沁</Link></li>
                     <li><Link href="https://x.com/AirouCat620">Airou</Link></li>
+                    <li><Link href="https://x.com/maya_furry">Maya</Link></li>
                 </ul>
 
                 <h3>自己的毛毛</h3>
