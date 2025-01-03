@@ -1,5 +1,6 @@
 ---
 title: "游台灣"
+title_short: "TwPlan"
 brief_description: "Android tourism app"
 date: "2020-08-14"
 img: "/images/portfolio/twplan.png"

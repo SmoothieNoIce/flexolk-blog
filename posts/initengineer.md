@@ -1,5 +1,6 @@
 ---
 title: "Init.engineer"
+title_short: "Initengineer"
 brief_description: "純靠北工程師 Android app"
 date: "2021-07-14"
 img: "/images/portfolio/initengineer.png"

@@ -1,5 +1,6 @@
 ---
 title: "Ocean Eat"
+title_short: "OceanEat"
 brief_description: "School Project"
 date: "2020-08-14"
 ---

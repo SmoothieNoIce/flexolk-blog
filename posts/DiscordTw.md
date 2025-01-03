@@ -1,5 +1,6 @@
 ---
 title: "DiscordTw"
+title_short: "DiscordTw"
 brief_description: "A platform for users to share their discord servers and bots"
 date: "2021-08-14"
 img: "/images/portfolio/discordtw.png"

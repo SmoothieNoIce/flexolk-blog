@@ -1,5 +1,6 @@
 ---
 title: "IOS school project"
+title_short: "IOS_school"
 brief_description: "IOS school project"
 date: "2020-07-14"
 ---

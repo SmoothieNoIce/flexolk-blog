@@ -7,10 +7,17 @@ import Date from '../components/date'
 import PortFolioCard1 from '../components/card/portfolioCard1'
 
 export default function Home({ allPostsData }) {
+  const title = `Home | ${siteTitle}`
   return (
     <Layout home>
       <Head>
-        <title>{siteTitle}</title>
+        <title>{title}</title>
+        <meta name="og:title" content={title} key="title"/>
+        <meta
+          property="og:image"
+          content={`${process.env.NEXT_PUBLIC_BASE_URL}/api/og?title=${`@Flexolk`}&description=${`/home`}`}
+          key="image"
+        />
       </Head>
       <img className={utilStyles.headingBackground} src="/images/oc.png"></img>
       <section className={utilStyles.headingMd}>

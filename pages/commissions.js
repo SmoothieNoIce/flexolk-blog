@@ -7,13 +7,16 @@ import Date from '../components/date'
 import PortFolioCard1 from '../components/card/portfolioCard1'
 
 export default function Commissions({ allPostsData }) {
+    const title = `Commissions | ${siteTitle}`
     return (
         <Layout home>
             <Head>
-                <title>{siteTitle}</title>
+                <title>{title}</title>
+                <meta name="og:title" content={title} key="title"/>
                 <meta
-                    name="description"
-                    content="普洱的委託"
+                property="og:image"
+                content={`${process.env.NEXT_PUBLIC_BASE_URL}/api/og?title=${`@Flexolk`}&description=${`/commissions`}`}
+                key="image"
                 />
             </Head>
             <img className={utilStyles.headingBackground} src="/images/oc.png"></img>

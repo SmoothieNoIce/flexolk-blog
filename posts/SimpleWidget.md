@@ -1,5 +1,6 @@
 ---
 title: "Simple Widget"
+title_short: "SimpleWidget"
 brief_description: "Android desktop widget"
 date: "2020-08-14"
 img: "/images/portfolio/simplewidget.png"

@@ -1,4 +1,4 @@
-import Layout from '../../components/layout'
+import Layout, { siteTitle } from '../../components/layout'
 import { getAllPostIds, getPostData } from '../../lib/posts'
 import Head from 'next/head'
 import Date from '../../components/date'
@@ -15,10 +15,17 @@ const Img = styled.img(
 
 
 export default function Post({ postData }) {
+  const title = `${postData.title_short} | ${siteTitle}`
   return (
     <Layout>
       <Head>
-        <title>{postData.title}</title>
+        <title>{title}</title>
+        <meta name="og:title" content={title} key="title"/>
+        <meta
+        property="og:image"
+        content={`${process.env.NEXT_PUBLIC_BASE_URL}/api/og?title=${`@Flexolk`}&description=${`/posts/${postData.title_short}`}`}
+        key="image"
+        />
       </Head>
       <article>
         <Img src={postData.img}></Img>

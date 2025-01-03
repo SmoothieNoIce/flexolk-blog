@@ -1,5 +1,6 @@
 ---
 title: "Kaomoji Go"
+title_short: "KaomojiGo"
 brief_description: "A Kamoji platform on web and android"
 date: "2021-07-14"
 img: "/images/portfolio/kaomojigo.png"
