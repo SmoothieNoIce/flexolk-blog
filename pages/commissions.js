@@ -72,6 +72,9 @@ export default function Commissions({ allPostsData }) {
 
                 <h2>委託</h2> 
 
+                <img className={utilStyles.commision_img} src="/images/commissions/lanlan_youwu_2.png" alt="Picture of the author" />
+                <p className={utilStyles.imgText3}>長香菇 By <Link href="https://www.facebook.com/profile.php?id=100021853863367">英文好爛悠無君</Link></p>
+
                 <img src="/images/commissions/faier_2.png" alt="Picture of the author" />
                 <p className={utilStyles.imgText3}>大亨堡 By <Link href="https://x.com/RA_FAIER">音川菲爾</Link></p>
 
