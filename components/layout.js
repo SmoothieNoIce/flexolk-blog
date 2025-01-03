@@ -16,6 +16,10 @@ export default function Layout({ children, home }) {
           content="Flexolk's personal website"
         />
         <meta
+          name="og:description"
+          content="Flexolk's personal website"
+        />
+        <meta
           property="og:image"
           content={`${process.env.NEXT_PUBLIC_BASE_URL}/api/og?title=${`@Flexolk`}&description=${`/home`}`}
           key="image"
