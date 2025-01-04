@@ -31,8 +31,8 @@ export default function Layout({ children, home }) {
       <nav className={styles.nav}>
         <Link href="/commissions"><p className={styles.url}>commissions</p></Link>
         <Link href="/info"><p className={styles.url}>info</p></Link>
-        <Link href="https://github.com/SmoothieNoIce"><p className={styles.url}>github</p></Link>
-        <Link href="https://blog.flexolk.me"><p className={styles.url}>blog</p></Link>
+        <Link href="https://github.com/SmoothieNoIce" rel="noopener noreferrer" target="_blank"><p className={styles.url}>github</p></Link>
+        <Link href="https://blog.flexolk.me" rel="noopener noreferrer" target="_blank"><p className={styles.url}>blog</p></Link>
         <Link href="/"><p className={styles.url}>home</p></Link>
         
       </nav>
