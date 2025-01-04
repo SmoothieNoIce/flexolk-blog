@@ -81,6 +81,7 @@ export default function Commissions({ allPostsData }) {
 
                 <img className={utilStyles.commision_img} src="/images/commissions/woofwolf.png" alt="Picture of the author" />
                 <p className={utilStyles.imgText3}>兄弟 By <Link rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/profile.php?id=100080198721688">愛貓</Link></p>
+                <p className={utilStyles.imgText4}>2023</p>
 
                 <h3>委託</h3> 
 
